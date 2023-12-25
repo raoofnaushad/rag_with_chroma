@@ -38,3 +38,37 @@ Chroma is an open-source embedding database aimed at enhancing LLM apps by provi
 
 Chroma focuses on simplicity, developer productivity, and efficient search, with an emphasis on analysis over search results.
 More information: [Chroma Documentation](https://docs.trychroma.com/)
+
+# LLaMAindex and Chroma Vector Store Integration
+
+A dynamic exploration of LLaMAindex with Chroma vector store, leveraging OpenAI APIs. This repository contains four distinct example notebooks, each showcasing a unique application of Chroma Vector Stores ranging from in-memory implementations to Docker-based and server-based setups.
+
+## Example Notebooks Overview
+
+### Example 1: In-Memory Chroma Vector Store
+
+Demonstrates setting up and using an in-memory Chroma Vector Store, ideal for basic functionalities and rapid prototyping.
+
+### Example 2: Persistent Chroma Vector Store
+
+Illustrates writing a Chroma Vector Store to disk for persistent storage, crucial for maintaining vector store data between sessions.
+
+### Example 3: ChromaDB with Docker
+
+A guide to running ChromaDB in a Docker container, suitable for containerized solutions. Prerequisites:
+
+```bash
+git clone git@github.com:chroma-core/chroma.git
+docker-compose up -d --build
+```
+
+### Example 4: ChromaDB Running as a Server
+
+Explores running ChromaDB as a server for scalable applications. Steps to get started:
+
+```bash
+pip install chromadb
+chroma run --path /db_path
+```
+
+Each notebook provides practical, hands-on experience, ensuring a comprehensive understanding of integrating LLaMAindex with the Chroma vector store.
