@@ -1,5 +1,5 @@
 venv
 .env
 .ipynb_checkpoints
-chroma
+chroma*
 .DS_Store
